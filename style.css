@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Charmonman:wght@400;700&family=Dancing+Script:wght@400;600;700&family=Monoton&family=Mr+Dafoe&family=Mrs+Saint+Delafield&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&family=Sofia+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+
+    font-family: Roboto, Dancing;
+}
+.logo-font{
+    font-family: charmonman, open sans;
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+}
+
+.imgslider{
+    height: 546px;
+}
+
+.bgsec{
+    background: #f2f2f2;
+}
+
+.text-uppercase{
+    padding-top: 40px;
+
+}
+
+.ayrac{
+    border: none;
+    border-top: 3px solid black;
+    max-width: 350px;
+    margin: 25px auto;
+}
+
+.igri{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -58px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.igri2{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 54px;
+    font-size: 40px;
+    border: 8px solid #f2f2f2;
+    background: #f2f2f2;
+    z-index: 3;
+}
+
+.ekibimiz{
+    background: white;
+}
+
+.ibeyaz{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -58px;
+    font-size: 40px;
+    border: 10px solid #fff;
+    background-color: #fff;
+}
+
+.ibeyaz2{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 54px;
+    font-size: 40px;
+    border: 8px solid #fff;
+    background: #fff;
+    z-index: 3;
+}
+
+.card, .figure{
+    transition: 0.6s;
+}
+
+.card:hover{;
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.figure:hover{
+    opacity: 0.75;
+    transition: 0.6s;
+}
+
+.shadow1:hover{
+    box-shadow: 2px 2px 10px red;
+}
+
+.submit{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.btn{
+    position: relative;
+    left: 0px;
+    bottom: 0;
+}
+
+
